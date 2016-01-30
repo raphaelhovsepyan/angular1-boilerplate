@@ -1,0 +1,30 @@
+{
+  "name": "angular1-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for angular1 webapp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelhovsepyan/angular1-boilerplate.git"
+  },
+  "keywords": [
+    "angular",
+    "gulp",
+    "browserify"
+  ],
+  "author": "Raphael Hovsepyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphaelhovsepyan/angular1-boilerplate/issues"
+  },
+  "homepage": "https://github.com/raphaelhovsepyan/angular1-boilerplate#readme",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-ui-router": "^0.2.17",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1"
+  }
+}
