@@ -18,7 +18,7 @@ modify `config.json` file
 
 ```
 {
-	"style-preprocessor" : "sass", // default sass
-	"http-server-port"   : "4444"  // default 8080
+	"style-preprocessor" : "sass", // choose `less` or `sass`, default sass
+	"http-server-port"   : "8080"  // default 8080
 }
 ```

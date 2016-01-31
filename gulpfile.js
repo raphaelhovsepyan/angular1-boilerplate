@@ -55,6 +55,13 @@ gulp.task('style', function(){
 			.pipe(gulp.dest('dist/assets/styles'))
 			.pipe(connect.reload());
 			break;
+		default :
+			gulp.src('src/assets/styles/sass/app.scss')
+			.pipe(sass())
+			.on('error', errHandler)
+			.pipe(gulp.dest('dist/assets/styles'))
+			.pipe(connect.reload());
+
 	}
 	
 });
@@ -83,8 +90,11 @@ gulp.task('watch', function(){
 			gulp.watch(['src/assets/styles/sass/*.scss', 'src/assets/styles/sass/**/*.scss'], ['style']);
 			break;
 		case "less" : 
-			gulp.watch(['src/assets/styles/less/*.less', 'src/assets/styles/less/**/*.less'], ['style'])
+			gulp.watch(['src/assets/styles/less/*.less', 'src/assets/styles/less/**/*.less'], ['style']);
 			break;
+		default :
+			gulp.watch(['src/assets/styles/sass/*.scss', 'src/assets/styles/sass/**/*.scss'], ['style']);
+
 	}
 });
 
