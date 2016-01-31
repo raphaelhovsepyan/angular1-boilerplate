@@ -6,7 +6,7 @@ Boilerplate for angular webapp.
 - npm
 - gulp
 
-### steps
+### Quick start
 ```
 git clone https://github.com/raphaelhovsepyan/angular1-boilerplate.git
 npm install
