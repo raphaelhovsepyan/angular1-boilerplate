@@ -1,0 +1,1 @@
+require('../providers/ExampleProvider.js');

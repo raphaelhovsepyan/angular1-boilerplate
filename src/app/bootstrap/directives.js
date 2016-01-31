@@ -1,0 +1,1 @@
+require('../directives/ExampleDirective.js');
