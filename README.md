@@ -12,3 +12,13 @@ git clone https://github.com/raphaelhovsepyan/angular1-boilerplate.git
 npm install
 gulp
 ```
+
+### Confugure build-script
+modify `config.json` file
+
+```
+{
+	"style-preprocessor" : "sass", // default sass
+	"http-server-port"   : "4444"  // default 8080
+}
+```
