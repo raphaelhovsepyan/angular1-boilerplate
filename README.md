@@ -13,7 +13,7 @@ npm install
 gulp
 ```
 
-### Confugure build-script
+### Configure build-script
 modify `config.json` file
 
 ```
