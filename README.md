@@ -2,9 +2,9 @@
 Boilerplate for angular webapp.
 
 ### Requirements
->node
->npm
->gulp
+- node
+- npm
+- gulp
 
 ### steps
 ```
