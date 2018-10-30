@@ -1,3 +1,4 @@
+# :warning: THIS REPO IS ABANDONED AND OUTDATED :warning:
 # angular1-boilerplate
 Boilerplate for angular webapp.
 
